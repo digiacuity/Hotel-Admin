@@ -1,0 +1,132 @@
+/* ------------------------Log in---------------------------------------- */
+.login-card {
+    padding: 20px 30px;
+    border: 1px solid rgba(0, 0, 0, .125);
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.register-card {
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+.check {
+    cursor: pointer;
+}
+
+.color {
+    color: #005fc1;
+
+    text-transform: uppercase;
+}
+
+.color:hover {
+    color: #005fc1;
+
+    text-decoration: underline;
+
+}
+
+.color-btn {
+    background-color: #005fc1;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+/* ------------------------------End---------------------------------- */
+
+/* ------------------------------Register---------------------------------- */
+
+.important {
+    color: red;
+    padding-left: 2px;
+    font-weight: 700;
+
+}
+
+
+.color {
+    color: #005fc1;
+    font-weight: 500;
+}
+
+.color:hover {
+    color: #005fc1;
+    font-weight: 700;
+    text-decoration: underline;
+
+}
+
+.color-btn {
+    background-color: #005fc1;
+    color: #fff;
+}
+
+/* -----------------------------End----------------------------------- */
+
+/* -----------------------------Profile-------------------------------- */
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+
+}
+
+
+
+.profile-back-icon {
+    color: rgb(255, 255, 255);
+    mix-blend-mode: overlay;
+    margin-left: 8px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+.cover-pic {
+    width: 100vw;
+    position: relative;
+    background-image: url('../assets/profile-cover-bg.jpeg');
+    left: 0px;
+    top: 0px;
+    background-position: center;
+    background-size: 100% 100%;
+    z-index: -1;
+    filter: contrast(1.2);
+
+}
+
+.user-pic {
+    border-radius: 50%;
+    position: relative;
+
+    margin-top: 34vh;
+    width: 200px;
+    left: 44vw;
+    top: 14vh;
+    z-index: 1;
+}
+
+.user-detail {
+    position: absolute;
+    bottom: 38px;
+    left: 42%;
+}
+
+
+
+/* --------------------End---------------- */

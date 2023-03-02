@@ -1,0 +1,101 @@
+* {
+    user-select: none;
+}
+.form-b{
+    background-color: #d0d0d0;
+}
+.booking-btn {
+    background-color: #005fc1;
+    color: #fff;
+    margin-left: 77px;
+    text-transform: uppercase;
+}
+.book-list {
+    text-align: center;
+}
+label{
+    font-weight: 600;
+
+}
+.file-input{
+    line-height: 2.8;
+}
+.react-datepicker__input-container input {
+    padding: 6px 44px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    color: #ffffff;
+}
+
+@media print {
+    .printt {
+        height: 9in;
+        padding: 30px;
+    }
+}
+
+.book-head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.book-icon {
+    cursor: pointer;
+}
+
+.container-book {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box {
+    box-shadow: 0 0 10px 2px #d0d0d0;
+    padding: 20px;
+
+}
+
+.back2 {
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.back-icon {
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+
+
+}
+.book-date{
+    padding: 6px 44px;
+    border: 1px solid #dbdbdb !important;
+    border-radius: 5px ;
+    line-height: 2.8 !important;
+}
+.book-con{
+    position: sticky;
+    top:11px;
+    z-index: 2;
+   
+    background-color: #fff;
+}
+.book-ti{
+    text-transform: uppercase;
+    padding: 4px 0 3px 14px;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+.addg{
+    font-size: 20px;
+
+    font-weight: bold;
+    text-transform: uppercase;
+}

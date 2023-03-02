@@ -1,0 +1,131 @@
+hr {
+    margin: 3px 0 !important;
+}
+.b-title{
+ align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.c-title{
+    text-transform: uppercase;
+    padding: 14px 0 3px 14px;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+.b-status {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.b-view {
+    border-radius: 50px;
+    background-color: #005fc1;
+    color: #fff;
+ 
+    font-size: 13px;
+ border: none;
+ outline: none;
+    padding: 7px 10px;
+}
+.b-edit{
+    border-radius: 50px;
+    background-color: #ffe000;
+    color: #fff;
+ margin-left: 5px;
+    font-size: 13px;
+ border: none;
+ outline: none;
+    padding: 7px 10px;
+}
+
+.btn-add {
+    background-color: "#005fc1";
+    color: #fff;
+}
+
+.btn-add:hover {
+    color: #fff;
+}
+
+.bttn-2 {
+    border-radius: 50%;
+
+    color: #fff !important;
+    margin: 5px;
+    font-size: 13px;
+}
+
+.bill-input {
+    outline: none;
+    border: none;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.lable-name {
+    width: 160px;
+    text-align: start;
+    padding: 10px 20px;
+}
+
+.lable-input {
+    width: 100px;
+}
+
+.table-bill {
+    height: 40vh;
+}
+
+.invoice-name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.invoice-date {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.checkout {
+    height: 100vh;
+}
+
+.footer-bill {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.bill-date {
+    border: none;
+    padding: 2px;
+    width: 80px;
+    outline: none;
+}
+
+.pay-button {
+    margin-left: 13rem;
+    margin-top: 20px;
+}
+
+.view-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-control-se {
+    width: 100%;
+
+    outline: none;
+    border-radius: 25px;
+    border: 1px solid rgb(156, 156, 156);
+    padding: 5px 20px;
+}

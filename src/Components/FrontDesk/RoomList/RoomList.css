@@ -1,0 +1,42 @@
+.ro-title{
+    text-transform: uppercase;
+    padding: 14px 0 0 14px;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+.room-lable{
+    padding: 16px 33%;
+    font-weight: bold;
+    text-align: justify;
+    border: 1px solid #e0e0e0;
+    font-size: 15px;
+}
+.add-select{width: 20vw;}
+.room-lable2{
+    padding: 10px 33%;
+    font-weight: bold;
+    text-align: justify;
+    border: 1px solid #e0e0e0;
+    font-size: 15px;
+}
+.room-name{
+    padding: 16px 33%;
+    text-align: justify;
+    border: 1px solid #e0e0e0;
+    font-size: 15px;
+}
+.room-name2{
+    padding: 16px 33%;
+    text-align: justify;
+    border: 1px solid #e0e0e0;
+    font-size: 15px;
+}
+.room-name3{
+    padding: 16px 33%;
+    text-align: justify;
+    border: 1px solid #e0e0e0;
+    font-size: 15px;
+}
+@media only screen and (max-width: 1023px) {.ro-title{
+    margin-left: 25px;
+}}

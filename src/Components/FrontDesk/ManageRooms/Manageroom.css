@@ -1,0 +1,27 @@
+.mr-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    
+}
+.mr-title2{
+    text-transform: uppercase;
+    padding: 14px 0 0 14px;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+.btn-submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination {
+    position: fixed;
+    bottom: 0;
+    margin-left: 50%;
+}
+@media only screen and (max-width: 1023px) {.m-title{
+    margin-left: 25px;
+}}

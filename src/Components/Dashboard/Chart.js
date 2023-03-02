@@ -1,0 +1,55 @@
+import "./dashboard.css";
+import {
+  AreaChart,
+  Area,
+  XAxis,
+  CartesianGrid,
+  Tooltip,
+  ResponsiveContainer,
+} from "recharts";
+
+const data = [
+  { name: "January", Total: 1200 },
+  { name: "February", Total: 2100 },
+  { name: "March", Total: 800 },
+  { name: "April", Total: 1600 },
+  { name: "May", Total: 900 },
+  { name: "June", Total: 1700 },
+];
+// const data = [
+//   { name: "January", Total: 0 },
+//   { name: "February", Total: 0 },
+//   { name: "March", Total: 0 },
+//   { name: "April", Total: 0 },
+//   { name: "May", Total: 0 },
+//   { name: "June", Total: 0 },
+// ];
+
+const Chart = ({ aspect, title }) => {
+  return (
+    <div className="chart ">
+      <ResponsiveContainer>
+        <AreaChart data={data}>
+          <defs>
+            <linearGradient id="total" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="5%" stopColor="#005fc1" stopOpacity={0.8} />
+              <stop offset="95%" stopColor="#005fc1" stopOpacity={0} />
+            </linearGradient>
+          </defs>
+          <XAxis dataKey="name" stroke="gray" />
+          <CartesianGrid strokeDasharray="3 3" className="chartGrid" />
+          <Tooltip />
+          <Area
+            type="monotone"
+            dataKey="Total"
+            stroke="#005fc1"
+            fillOpacity={1}
+            fill="url(#total)"
+          />
+        </AreaChart>
+      </ResponsiveContainer>
+    </div>
+  );
+};
+
+export default Chart;

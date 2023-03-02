@@ -1,0 +1,47 @@
+.title-rep{
+    text-transform: uppercase;
+    padding: 7px 10px;
+    letter-spacing: 1px;
+    margin-top: 7px;
+}
+.con{
+    border: 1px solid rgb(233, 233, 233);
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+}
+.con h5{
+ 
+    letter-spacing: 1.5px;
+    text-transform: capitalize;
+    color: rgb(56, 56, 56);
+}
+.con-icon{
+    font-size: 30px;
+    cursor: pointer;
+    color: rgb(56, 56, 56);
+    transition: all 0.2s ease-in-out;
+}
+.con-icon:hover{
+    transform: scale(1.2);
+}
+.con:hover{
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+    transform: scale(1.03);
+}
+
+/* checkin report */
+.ci-rep{
+    text-transform: uppercase;
+    padding: 3.5px 10px;
+    letter-spacing: 1px;
+    margin-top: 7px;
+}
+@media only screen and (max-width: 1023px) {.title-rep{
+    margin-left: 25px;
+}}
